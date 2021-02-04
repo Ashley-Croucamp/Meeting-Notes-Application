@@ -6,35 +6,6 @@ if(document.getElementById('showCurrentDate') != null) {
 }
 
 // Store names and email of people who attends the meeting as an object after it has been added
-/**
-let = attendanceInfo = [];
-
-function handleEvent(Event) {
-  
-  // Stops 'Add' from adding more than one info
-  event.preventDefault();
-  
-  const data = new FormData(event.target);
-  
-  // Takes input value and returns it in an object
-  const value = Object.fromEntries(data.entries());
-  
-  // Clears form for next entry
-  const form = document.querySelector('form').reset();
-  
-  let currentUser = document.getElementById('currentUserName').value;
-  
-  attendanceInfo.push({ value });
-  
-  // Displays data input 
-  console.log(attendanceInfo);
-}
-if (document.querySelector('form') != null){
-  const form = document.querySelector('form');
-  form.addEventListener('submit', handleEvent);
-}
-**/
-
 let attendanceInfo = [];
 
 const addInfo = (event) => {
