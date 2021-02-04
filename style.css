@@ -1,0 +1,98 @@
+  /** global variables **/
+  
+  html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Not supported in IE6 and IE7*/
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #currentUserName {
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #A7C7E7;
+  }
+  
+  .meetingInfo {
+    display: inline;
+  }
+  
+  #showCurrentDate {
+    font-size: 1.9em;
+  }
+  
+  #meetingName {
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A7C7E7;
+    padding: 6px 12px;
+    margin: 8px 0;
+    text-align: center;
+  }
+  
+  #attendanceName {
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A7C7E7;
+    padding: 6px 12px;
+    margin: 8px 0;
+    text-align: center;
+  }
+  
+  #attendanceEmail {
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A7C7E7;
+    padding: 6px 12px;
+    margin: 8px 0;
+    text-align: center;
+  }
+  
+  #addAttendanceBtn {
+    background-color: #A7C7E7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .meetingNotesAndAttendance {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #meetingNotesEditing {
+    width: 68%;
+    height: 200px;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #A7C7E7;
+    margin: 8px 0;
+  }
+  
+  #saveNotes {
+    background-color: #A7C7E7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

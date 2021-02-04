@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    
+    <title>Meeting Notes</title>
+  </head>
+  
+  <body>
+    
+    <div class="heading">
+      <h1 id="title">Meeting Notes</h1>
+      <h1><input type="text" name="usersName" id="currentUserName" value="David" /></h1>
+    </div>
+    
+    <div class="meetingInfo">
+      <h2 id="showCurrentDate" name="showDate"></h2>
+      <input type="text" name="meetingName" id="meetingName" placeholder="Meeting Name" required />
+    </div>
+    
+    <form action="#" method="post">
+      <input type="text" name="name" id="attendanceName" placeholder="Name" />
+      <input type="email" name="email" id="attendanceEmail" placeholder="Email" />
+      <button id="addAttendanceBtn">Add</button>
+    </form>
+    
+    <div class="meetingNotesAndAttendance">
+      <ul>
+        
+      </ul>
+      <textarea name="meetingNotes" id="meetingNotesEditing" cols="25" rows="15" ></textarea>
+    </div>
+    
+    <div class="saveMeetingNotes">
+      <input type="submit" name="saveNotes" id="saveNotes" value="Save" />
+    </div>
+    
+    <!-- JavaScript link -->
+    <script src="script.js" type="text/javascript" charset="utf-8" defer></script>
+    
+  </body>
+  
+</html>
